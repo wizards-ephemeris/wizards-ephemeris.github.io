@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.31" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <link rel="icon" href="/favicon.png"><meta name="github-repository" content="wizards-ephemeris/wizards-ephemeris"><script>try {
+  var lang = localStorage.getItem('eph-doc-lang') || 'cpp'
+  document.documentElement.dataset.ephLang = lang
+} catch (err) {
+  document.documentElement.dataset.ephLang = 'cpp'
+}</script><title>Wizards Ephemeris</title><meta name="description" content="Positions, houses, and ayanamsas for a natal chart. No Swiss Ephemeris in the library.">
+    <link rel="preload" href="/assets/style-r0nEDv-e.css" as="style"><link rel="stylesheet" href="/assets/style-r0nEDv-e.css">
+    <link rel="modulepreload" href="/assets/app-B4R0QQrk.js"><link rel="modulepreload" href="/assets/404.html-BJ_ltWQ2.js">
+    
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-3fac1c72><main class="page" data-v-3fac1c72><div vp-content data-v-3fac1c72><h1 data-v-3fac1c72>404</h1><blockquote data-v-3fac1c72>There&#39;s nothing here.</blockquote><a class="route-link" href="/" data-v-3fac1c72>Take me home</a></div></main></div><!--[--><!----><div class="eph-lang" role="group" aria-label="Example language"><button type="button" class="on">C++</button><button type="button" class="">TypeScript</button></div><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-B4R0QQrk.js" defer></script>
+  </body>
+</html>
